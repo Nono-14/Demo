@@ -1,0 +1,22 @@
+.boxes{
+    border: 5px solid #008B8B;
+    width: auto;;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+.boo{
+display: block;
+
+}
+.demo{
+    background-color: #008B8B;
+    font-size: 15px;
+    width: auto;
+}
+
+body{
+    background-color: #5F9EA0;
+    opacity: 0.6;
+}

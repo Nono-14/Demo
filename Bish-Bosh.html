@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="design.css" />
+    <title>Bish Bosh 2.0</title>
+    <script src="script.js"></script>
+  </head>
+  <header>
+    <h1>
+        
+    </h1>
+  </header>
+  <body>
+    <form action="" id="form">
+      <div class="boo">
+        <label for="limit">Ange en siffra: </label>
+        <br />
+        <input id="siffra" type="range" min="1" max="100" onchange="startLoop()" oninput="update1(this.value)" >
+        <span id="siffrainput">50</span>
+        <br />
+        <label for="bish">Ange Bish: </label>
+        <br />
+        <input id="num1" type="range" min="1" max="100" onchange="startLoop()" oninput="update2(this.value)" />
+        <span id="bishinput">50</span>
+        <br />
+        <label for="bosh">Ange Bosh: </label>
+        <br />
+        <input id="num2" type="range" min="1" max="100" onchange="startLoop()" oninput="update3(this.value)" />
+        <span id="boshinput">50</span>
+    </form>
+        <p id="demo"></p>
+      </div> 
+    
+    
+ </body>
+  
+
+</html>
